@@ -1,0 +1,28 @@
+/* Botón personalizado */
+.btn-primary {
+    background-color: #ff5733;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Sombra y borde redondeado a cards */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Media Query para pantallas pequeñas */
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: #fce4ec;
+    }
+  
+    h1, h3 {
+      color: #c2185b;
+    }
+  }
+  
